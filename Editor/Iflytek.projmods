@@ -24,6 +24,6 @@
     "bitcode":["NO"],
     "code_sign_identity":[],
     "provisioning_profile_specifier":[],
-    "framework_search_paths":["$(SRCROOT)/Frameworks","$(inherited)"],
+    "framework_search_paths":["$(inherited)","$(SRCROOT)/Frameworks"],
     "other_ldflags":["-ObjC"]
 }
