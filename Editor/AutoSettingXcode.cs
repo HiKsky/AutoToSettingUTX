@@ -83,6 +83,7 @@ public class AutoSettingXcode : MonoBehaviour {
 			proj.SetBuildProperty (target, "FRAMEWORK_SEARCH_PATHS", valueOne);  
 		});
 		Debug.Log("修改FRAMEWORK_SEARCH_PATHS成功!");
+                //设置框架路径时，无法实现在Xcode中依次添加各个路径，添加一个可以，添加第二个覆盖第一个
 		ApplyData (dataBinding.other_ldflags,(valueOne,ValueTwo)=>{
 			proj.SetBuildProperty (target, "OTHER_LDFLAGS", valueOne);  
 		}); 
