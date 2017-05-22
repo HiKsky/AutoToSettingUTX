@@ -73,7 +73,6 @@ public class AutoSettingXcode : MonoBehaviour {
 		Debug.Log("修改ENABLE_BITCODE成功!");
 		ApplyData (dataBinding.code_sign_identity,(valueOne,ValueTwo)=>{
 			proj.SetBuildProperty (target, "CODE_SIGN_IDENTITY", valueOne +":"+ ValueTwo);  
-			Debug.Log(valueOne);
 		});
 		Debug.Log("修改CODE_SIGN_IDENTITY成功!");
 		ApplyData (dataBinding.provisioning_profile_specifier,(valueOne,ValueTwo)=>{
