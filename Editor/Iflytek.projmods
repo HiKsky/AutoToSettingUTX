@@ -22,7 +22,7 @@
     "linker_flags":[],
     "excludes":["^.*.meta$", "^.*.mdown$", "^.*.pdf$"],
     "bitcode":["NO"],
-    "code_sign_identity":[],
+    "code_sign_identity":[你的证书名字],
     "provisioning_profile_specifier":[],
     "framework_search_paths":["$(inherited)","$(SRCROOT)/Frameworks"],
     "other_ldflags":["-ObjC"]
